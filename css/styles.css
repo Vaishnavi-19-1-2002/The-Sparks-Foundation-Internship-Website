@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+  height: 25rem;
+  width: 20rem;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 5rem;
+}
+
+h5 {
+  padding: 10px;
+  font-size: 2rem;
+}
+
+.white {
+  color: white;
+}
+
+.paybutton {
+  margin-top: 50px;  
+}
+
+.navnar {
+  display: flex;
+  padding: 30px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav-list li {
+  list-style: none;
+  padding: 0px 20px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.nav-list li a:hover {
+  color: gold;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 120px;
+  text-align: center;
+}
+
+.slides {
+  height: 25rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.content {
+  min-height: 93px;
+}
+
+.colorchange {
+  animation: colorchange 1s infinite;
+}
+
+@keyframes colorchange {
+  
+  50%{color: white;}
+  100%{color: gold;}
+}
+
+.btn {
+  border: 1px solid gold;
+  padding: 10px 15px;
+  background-color: transparent;
+  color: gold;
+  letter-spacing: 2.5px;
+  font-size: 20px;
+}
+
+button:hover {
+  background: gold;
+  color: white;
+}
+
+.background {
+  background: rgba(0, 0, 0, 0.7) url(../images/donate.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+}
+
+.logo {
+  height: 80px;
+  width: auto;
+  float: left;
+  margin-left: 20px;
+  height: 120px;
+  width: auto;
+}
+
+footer{
+	text-align: center;
+	background-color: rgba(228, 228, 228, 0.8);
+	overflow: hidden;
+	padding-top: 10px;
+  margin-top: 7.8rem;
+  margin-bottom: 0;
+}

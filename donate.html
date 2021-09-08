@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Smile Foundation</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="jquery.flipster.min.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .images {
+        width: 100%;
+        height: 100%;
+        overflow: visible;
+      }
+
+      body {
+        background: black;
+        overflow: visible;
+      }
+
+      .text {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        background: linear-gradient(90deg, rgb(54,54,54), #fff, rgba(54,54,54));
+        letter-spacing: 5px;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-repeat: no-repeat;
+        background-size: 80%;
+        animation: shine 5s linear infinite;
+        position: relative;
+      }
+    </style>
+</head>
+<body>
+
+        <nav class="navbar">
+          <div class="white">
+            <img class="logo" src="images/logo.png" alt="logo">
+          </div>
+            <ul class="nav-list">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <img src="images/img1.jpg" class="d-block slides" alt="img">
+            </div>
+            <div class="carousel-item">
+              <img src="images/img2.jpg" class="d-block slides" alt="img">
+            </div>
+            <div class="carousel-item">
+              <img src="images/img3.jpg" class="d-block slides" alt="img">
+            </div>
+            <div class="carousel-item">
+              <img src="images/img4.jpg" class="d-block slides" alt="img">
+            </div>
+            <div class="carousel-item">
+              <img src="images/img5.jpg" class="d-block slides" alt="img">
+            </div>
+            <div class="carousel-item">
+              <img src="images/img6.jpg" class="d-block slides" alt="img">
+            </div>
+            <div class="carousel-item">
+              <img src="images/img7.jpg" class="d-block slides" alt="img">
+            </div>
+            <div class="carousel-item">
+              <img src="images/img8.jpg" class="d-block slides" alt="img">
+            </div>
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <form style="text-align: center;" class="paybutton"><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_Hv1NFbYkcLohny" async> </script> </form>
+</body>
+</html>
